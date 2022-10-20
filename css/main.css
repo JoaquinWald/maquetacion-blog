@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
   margin: 0;
   padding: 0;
@@ -33,9 +36,12 @@ header .header-icons-container .icons{
   width: 300px;
   height: auto;
   display: flex;
-  justify-items: flex-end;
+  /* justify-items: flex-end; */
   align-items: center;
   justify-content: space-between;
   justify-self: end;
   margin-right: 50px;
+}
+header .icons span {
+  color: white;
 }
