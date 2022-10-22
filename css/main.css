@@ -3,7 +3,8 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
 
-body{
+body {
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -12,7 +13,7 @@ body{
   left: 0;
   right: 0;
 }
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -22,7 +23,7 @@ a {
   color: black;
 }
 
-header{
+header {
   width: 100%;
   height: 140px;
   display: grid;
@@ -38,7 +39,6 @@ header .header-icons-container .icons{
   width: 300px;
   height: auto;
   display: flex;
-  /* justify-items: flex-end; */
   align-items: center;
   justify-content: space-between;
   justify-self: end;
@@ -70,6 +70,10 @@ nav .profile-link a {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   height: 100%;
+  background-image: url('../assets/img/Cover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home-main section {
   display: grid;
@@ -79,8 +83,23 @@ nav .profile-link a {
   margin-top: 80px;
 }
 .home-main-text {
+  font-family: 'Roboto mono', monospace;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 10px;
-  /* color:white; */
+  text-align: center;
+  color:white;
+}
+.home-main-button {
+  width: 120px;
+  height: 50px;
+  background-color: #41C7A4;
+  display: grid;
+  align-items: center;
+}
+.home-main-button a {
+  padding: 12px 12px;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Roboto', monospace;
 }
