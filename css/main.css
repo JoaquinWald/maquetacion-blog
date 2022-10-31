@@ -192,3 +192,119 @@ footer p {
   margin-top: 15px;
 }
 
+/* estilos de BLOG */
+.blogpost-img-container {
+  padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+  width: 100%;
+}
+.blogpost-main-container {
+  padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+.blogpost-main-container article h1 {
+  font-size: 3.5rem;
+}
+.contact-main-container {
+  width: 100%;
+  height: 200px;
+  background-color: #cdd2da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.contact-main-container img {
+  width: 60px;
+  height: 50px;
+}
+.contact-main-container .contact-left-container {
+  padding: 50px;
+  display: flex;
+  max-width: 400px;
+  min-width: 320px;
+}
+.contact-main-container .contact-right-container {
+  padding: 50px;
+  display: flex;
+  max-width: 400px;
+  min-width: 320px;
+}
+.contact-left-container a {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #22272d;
+  font-weight: bold;
+}
+.contact-left-container p {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+.contact-right-container a {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #22272d;
+  font-weight: bold;
+}
+.contact-right-container p {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+/* Sección del perfil */
+.hero-container {
+  background-color: #cdd2da;
+}
+.hero-container img {
+  width: 350px;
+  height: 200px;
+}
+.hero-info-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.hero-text-container {
+  padding-left: 20px;
+  max-width: 600px;
+  min-width: 300px;
+}
+.hero-text-container h2 {
+  font-size: 3rem;
+}
+.hero-text-container p {
+  font-size: 1.5rem;
+}
+.proyects-container {
+  width: 100%;
+}
+
+.proyects-main-container {
+  padding: 0 50px 40px;
+  margin: 0 auto;
+}
+.proyects-container h2 {
+  text-align: center;
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+.jobs-container {
+  display: flex;
+}
+.jobs-container article {
+  padding: 25px;
+}
+.jobs-container article h3 {
+  font-size: 1.8rem;
+}
+.jobs-container article p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
